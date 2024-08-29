@@ -1,0 +1,9 @@
+#3. Palíndromo
+function esPalindromo(palabra) {
+  let palabraInvertida = palabra.split("").reverse().join("");
+  return palabra.toLowerCase() === palabraInvertida.toLowerCase();
+}
+
+console.log("\nPalíndromo:");
+console.log(esPalindromo("ana")); // Muestra true
+console.log(esPalindromo("Hola")); // Muestra false
