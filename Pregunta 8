@@ -1,0 +1,8 @@
+#8. Búsqueda de elementos en un arreglo
+function buscarElemento(arr, nombre) {
+  return arr.includes(nombre) ? `El nombre ${nombre} está presente en el arreglo.` : `El nombre ${nombre} no está presente en el arreglo.`;
+}
+
+console.log("\nBúsqueda de elementos en un arreglo:");
+console.log(buscarElemento(["Juan", "Ana", "Pedro"], "Ana"));
+console.log(buscarElemento(["Juan", "Ana", "Pedro"], "Carlos"));
