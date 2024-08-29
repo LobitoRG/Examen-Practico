@@ -1,0 +1,7 @@
+#2. Reversión de cadena
+function revertirFrase(frase) {
+  return frase.split(" ").reverse().join(" ");
+}
+
+console.log("\nReversión de cadena:");
+console.log(revertirFrase("Hola Mundo en Javascript")); // Muestra "Javascript en Mundo Hola"
