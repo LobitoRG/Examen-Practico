@@ -4,4 +4,4 @@ function revertirFrase(frase) {
 }
 
 console.log("\nReversión de cadena:");
-console.log(revertirFrase("Hola Mundo en Javascript")); // Muestra "Javascript en Mundo Hola"
+console.log(revertirFrase("Hola Mundo en Javascript")); 
