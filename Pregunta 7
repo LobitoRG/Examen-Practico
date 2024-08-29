@@ -1,0 +1,7 @@
+#7. Concatenación de arreglos
+let arreglo1 = ["Hola", "Mundo"];
+let arreglo2 = ["en", "Javascript"];
+let arregloConcatenado = arreglo1.concat(arreglo2);
+
+console.log("\nConcatenación de arreglos:");
+console.log(arregloConcatenado);
