@@ -5,5 +5,5 @@ function esPalindromo(palabra) {
 }
 
 console.log("\nPalíndromo:");
-console.log(esPalindromo("ana")); // Muestra true
-console.log(esPalindromo("Hola")); // Muestra false
+console.log(esPalindromo("ana"));
+console.log(esPalindromo("Hola")); 
