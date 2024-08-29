@@ -1,0 +1,7 @@
+#5. Suma de elementos de un arreglo
+function sumarArreglo(arr) {
+  return arr.reduce((total, num) => total + num, 0);
+}
+
+console.log("\nSuma de elementos de un arreglo:");
+console.log(sumarArreglo([1, 2, 3, 4, 5])); 
