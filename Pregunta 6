@@ -1,0 +1,7 @@
+#6. Filtrado de elementos en un arreglo
+function filtrarMayoresQue(arr, valor) {
+  return arr.filter(num => num > valor);
+}
+
+console.log("\nFiltrado de elementos en un arreglo:");
+console.log(filtrarMayoresQue([10, 5, 20, 15, 3], 10));
